@@ -8,12 +8,15 @@ h1{
     text-align: center; 
 }
 h2{
+    background-image: url(images/elena-popova-hXY98KmQWkI-unsplash\ \(1\).jpg);
+}
+h3{
     font-size: 65px;
     color: rgba(0, 0, 0, 0.55);
     font-family: 'MonteCarlo', cursive;
     text-align: center;  
  }
-h3{
+h4{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.55);
     font-family: 'MonteCarlo', cursive;
@@ -22,6 +25,12 @@ h3{
 }  
  img{ 
     text-align: center;
+}
+body{
+    background-color: white; 
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 body {
     
@@ -37,3 +46,17 @@ body {
     margin-right: auto;
     width: 1028px;
 }
+nav {
+    background-color:whitesmoke;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    width:1029px;
+}  
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+   

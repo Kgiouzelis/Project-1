@@ -1,7 +1,10 @@
+html{
+    height: 100%;
+}
 *{
    margin: 0;
    padding: 0;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'MonteCarlo', cursive;
 }
 .contact-section {
    background: url(bg.png) no-repeat center;
@@ -10,14 +13,13 @@
 }
 .contact-section h1{
     text-align: center;
-    color: #ddd;
+    color: darkgray;
 }
 .border{
     width: 100px;
     height: 10px;
-    background: #34495e;
+    background: darkgray;
     margin: 40px auto;
-
 }
 
 .contact-form{
@@ -32,13 +34,13 @@
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background: #111;
+    background:darkgray;
     padding: 20px 40px;
-    color: #ddd;
+    color: darkgray;
     transition: 0.5s;
 }
 .contact-form-text-focus{
-    box-shadow: 0 0 10px 4px #34495e;
+    box-shadow: 0 0 10px 4px white;
 }
 textarea.contact-form-text{
     resize: none;
@@ -48,7 +50,7 @@ textarea.contact-form-text{
 .contact-form-btn{
     float: right;
     border: 0;
-    background: #34495e;
+    background: turquoise;
     color: #fff;
     padding: 12px 50px;
     border-radius: 20px;
@@ -57,6 +59,19 @@ textarea.contact-form-text{
 }
 
 .contact-form-btn:hover{  
-     background: #2980b9;
+     background: black;
  }   
 
+ nav {
+    background-color:whitesmoke;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    width:1029px;
+ }
+ nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
