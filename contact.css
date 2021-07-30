@@ -75,3 +75,37 @@ textarea.contact-form-text{
     padding-left: 10px;
     padding-right: 10px;
 }
+footer {
+    background-color:rgba(1, 1, 1, 0.593);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+footer p{
+    font-size: 14px;
+    text-align: right;
+    color: whitesmoke;
+}
+.fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 20px;
+        text-align: right;
+        text-decoration: none;
+ }
+ .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: white;
+    color:turquoise;
+  }
+  .fa-pinterest {
+    background: white;
+    color: turquoise;
+  }
+  .fa-instagram {
+    background: white;
+    color:turquoise;
+  }   
