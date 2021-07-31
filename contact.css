@@ -3,8 +3,19 @@ html{
 }
 *{
    margin: 0;
-   padding: 0;
-   font-family: 'MonteCarlo', cursive;
+   padding: 0; 
+}
+body {
+    height: 700px;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 80px;
+    text-align: center
+}
+a{
+    color:rgba(0, 0, 0, 0.55);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 .contact-section {
    background: url(bg.png) no-repeat center;
@@ -14,6 +25,7 @@ html{
 .contact-section h1{
     text-align: center;
     color: darkgray;
+    font-family: 'MonteCarlo', cursive;
 }
 .border{
     width: 100px;
@@ -26,18 +38,23 @@ html{
     max-width: 600px;
     margin: auto;
     padding: 0px;
-    overflow: hidden
+    overflow: hidden;
+    color: white;
 }
 .contact-form-text{
+    font-family: 'MonteCarlo', cursive;
+    font-size: large;
     display: block;
     width: 100%;
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background:darkgray;
+    background-color: whitesmoke;
     padding: 20px 40px;
-    color: darkgray;
-    transition: 0.5s;
+    color: white;
+}
+input{
+    color: white;
 }
 .contact-form-text-focus{
     box-shadow: 0 0 10px 4px white;
@@ -63,6 +80,7 @@ textarea.contact-form-text{
  }   
 
  nav {
+    margin: auto;
     background-color:whitesmoke;
     padding-top: 14px;
     padding-bottom: 14px;

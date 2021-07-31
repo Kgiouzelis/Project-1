@@ -2,10 +2,16 @@ html{
   height: 100%;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
+  a{
+    color:rgba(0, 0, 0, 0.55);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
   nav {
+    margin:auto;
     background-color:whitesmoke;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -22,9 +28,8 @@ nav a {
   .column {
     
     float: left;
-    width: 23.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    width: 33.3%;
+    height: 400px; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -34,44 +39,43 @@ nav a {
     clear: both;
   }
 
-.column1 {
-   
-    background-image: url(image/img_2566.jpg);
-    float: left;
-    background-size: cover;
-    width: 23.33%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-.column2 {
- 
-  background-image: url(image/img_2572.jpg);
-  float: left;
-  background-size: cover;
-  width: 23.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-.column3 {
-  background-image: url(image/img_2569.jpg);
-  float: left;
-  background-size: cover;
-  width: 23.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-footer {
-  background-color:rgba(1, 1, 1, 0.593);
-  padding-top: 14px;
-  padding-bottom: 14px;
-  text-align: center;
-}
-footer p{
-  font-size: 14px;
-  text-align: right;
-  color: whitesmoke;
+
+  body {
+    height: 700px;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 80px;
+    text-align: center;
+  } 
+  h1{
+    font-size: 77px;
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'MonteCarlo', cursive;
+    text-align: center; 
   }
-  .fa {
+  h2{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'MonteCarlo', cursive;
+    text-align: center; 
+  }
+  footer {
+    background-color:rgba(1, 1, 1, 0.593);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+  footer p{
+    font-size: 14px;
+    text-align: right;
+    color: whitesmoke;
+    }
+.max{
+    padding-bottom: 200px;
+    padding-top: 100px;
+    text-align: center;
+    } 
+.fa {
     padding: 20px;
     font-size: 20px;
     width: 20px;
@@ -93,23 +97,4 @@ footer p{
 .fa-instagram {
     background: white;
     color:turquoise;
-  }
-  body {
-    height: 700px;
-    padding-top: 10px;
-    padding-right: 70px;
-    padding-left: 80px;
-    text-align: center;
-  } 
-  h1{
-    font-size: 77px;
-    color: rgba(0, 0, 0, 0.55);
-    font-family: 'MonteCarlo', cursive;
-    text-align: center; 
-  }
-  h2{
-    font-size: 60px;
-    color: rgba(0, 0, 0, 0.55);
-    font-family: 'MonteCarlo', cursive;
-    text-align: center; 
   }
